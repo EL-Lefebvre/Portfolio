@@ -20,7 +20,7 @@ body {
   
   *{
       padding:0;
-      font-family: 'Questrial', sans-serif;
+      font-family: 'Poppins', sans-serif;
   }
 
 `;
