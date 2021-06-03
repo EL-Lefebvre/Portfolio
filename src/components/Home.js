@@ -28,7 +28,7 @@ const fade = keyframes`{
       }
    }`;
 const Wrapper = styled.div`
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -47,7 +47,8 @@ const Main = styled.div`
   width: 40vw;
   animation: ${fade} 1s ease-in;
   @media (min-width: 200px) and (max-width:700px){
-    width:90vw;
+    width:98vw;
+
       }
 `;
 const TitleDiv = styled.div`

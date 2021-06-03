@@ -1,14 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const SideBar = () => {
   return (
     <Wrapper>
       <Main>
         <Navig to="/">Home</Navig>
-        <Navig to="/contact">Contact</Navig>
         <Navig to="/portfolio">Portfolio</Navig>
+        <Navig to="/skills">Skills</Navig>
+        <Navig to="/contact">Contact</Navig>
       </Main>
     </Wrapper>
   );
@@ -18,6 +20,7 @@ const Wrapper = styled.div`
   height: 10vh;
   position: absolute;
   width: 100vw;
+  position: fixed;
 `;
 const Main = styled.div`
   display: flex;
